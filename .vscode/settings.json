@@ -1,0 +1,27 @@
+{
+  // 一个制表符等于的空格数
+  "editor.tabSize": 2,
+  // 控制资源管理器是否应以紧凑形式呈现文件夹。
+  "explorer.compactFolders": false,
+  // 在保存时格式化文件
+  "editor.formatOnSave": true,
+  // 文件格式化配置
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 对属性进行换行。
+  "html.format.wrapAttributes": "auto",
+  // 控制计算折叠范围的策略。
+  "editor.foldingStrategy": "auto",
+  // 配置语言的文件关联
+  "files.associations": {
+    "pages.json": "jsonc", // pages.json 可以写注释
+    "manifest.json": "jsonc" // manifest.json 可以写注释
+  }
+}
